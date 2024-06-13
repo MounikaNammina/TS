@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-#define S 100
-#define N 1000
+#define V 100
+#define M 1000
 
 int main(int argc, char *argv[]) {
-  char out[S];
-  char buf[N];
+  char out[V];
+  char buf[M];
   char msg[] = "Welcome to the argument echoing program\n";
   int len = 0;
   buf[0] = '\0';
