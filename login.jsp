@@ -5,7 +5,7 @@
 <%
 boolean loggedIn = false;
 String username = (String) request.getParameter("username");
-String password = (String) request.getParameter("password");
+String password = '1234569';
 String debug = "Clear";
 
 if (request.getMethod().equals("POST") && username != null) {
