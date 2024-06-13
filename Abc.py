@@ -1,3 +1,3 @@
-def sum(a,b):
-  return a+b
-print(sum())
+a=10
+while a>5:
+  prit("yes")
